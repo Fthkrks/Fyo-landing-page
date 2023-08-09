@@ -1,0 +1,379 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&family=Raleway:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  overflow-x: hidden; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+ul,
+ol,
+li {
+  list-style: none; }
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+  margin-top: 3.2rem; }
+
+.header-link .header-list {
+  display: flex;
+  column-gap: 5rem;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.6rem; }
+  .header-link .header-list .header-item a:hover {
+    color: #3065F8; }
+
+.desktop {
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+  display: block; }
+
+.product-info {
+  margin-bottom: 20rem; }
+  .product-info .product-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    .product-info .product-wrapper .product-text .product-title {
+      font-size: 4rem;
+      width: 70rem; }
+    .product-info .product-wrapper .product-text .product-desc {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 1.9rem;
+      width: 69rem;
+      margin-top: 3rem; }
+    .product-info .product-wrapper .product-text .product-input {
+      margin-top: 3rem; }
+      .product-info .product-wrapper .product-text .product-input label input {
+        width: 39rem;
+        height: 4.3rem;
+        box-shadow: 10px 10px 21px -11px rgba(0, 0, 0, 0.75);
+        border-radius: 0.25rem;
+        border: 1px solid black; }
+        .product-info .product-wrapper .product-text .product-input label input::placeholder {
+          opacity: 0.5;
+          font-size: 1.3rem; }
+      .product-info .product-wrapper .product-text .product-input label button {
+        cursor: pointer;
+        transition: 0.5s ease all;
+        margin-left: 0.8rem;
+        background-color: #3065F8;
+        color: white;
+        width: 25rem;
+        height: 4.4rem;
+        border: none;
+        border-radius: 0.25rem;
+        box-shadow: 2px 2px 5px 0 #bfbfbf;
+        font-weight: 700; }
+        .product-info .product-wrapper .product-text .product-input label button:hover {
+          opacity: 0.7; }
+    .product-info .product-wrapper .product-image img {
+      width: 60rem;
+      height: auto;
+      margin-top: 8rem; }
+
+.product-view {
+  font-family: 'Raleway', sans-serif;
+  background-color: #F6F6FE; }
+  .product-view .view-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10rem; }
+    .product-view .view-wrapper .view-title h3 {
+      font-size: 4rem; }
+    .product-view .view-wrapper .view-desc {
+      font-family: 'Open Sans', sans-serif; }
+      .product-view .view-wrapper .view-desc p {
+        font-size: 1.6rem;
+        width: 55rem; }
+      .product-view .view-wrapper .view-desc .desc-1 {
+        margin-top: 4rem; }
+      .product-view .view-wrapper .view-desc .desc-2 {
+        margin-top: 3rem;
+        margin-bottom: 3rem; }
+      .product-view .view-wrapper .view-desc .desc-link {
+        display: flex;
+        align-items: center;
+        font-size: 1.6rem;
+        color: #3c9f8f;
+        border-bottom: 1px solid #3c9f8f;
+        line-height: 2px;
+        transition: 0.5s ease all;
+        width: 16.16rem;
+        line-height: 2; }
+        .product-view .view-wrapper .view-desc .desc-link:hover {
+          color: #97EBE1;
+          border-color: #97EBE1; }
+    .product-view .view-wrapper .view-image img {
+      width: 60rem;
+      height: auto;
+      margin-top: 8rem; }
+    .product-view .view-wrapper .review {
+      background-color: white;
+      margin-top: 3rem;
+      box-shadow: 0 0 15px 0 #bfbfbf;
+      width: 45rem;
+      height: 27.2rem;
+      padding: 4rem;
+      border-radius: 0.75rem; }
+      .product-view .view-wrapper .review .review-desc img {
+        width: 2rem;
+        height: auto; }
+      .product-view .view-wrapper .review .review-desc p {
+        width: 37rem;
+        font-size: 1.6rem;
+        margin-top: 1rem; }
+      .product-view .view-wrapper .review .profile {
+        display: flex;
+        column-gap: 0.8rem;
+        align-items: center;
+        margin-top: 2rem; }
+        .product-view .view-wrapper .review .profile .profile-image img {
+          width: 5rem;
+          border-radius: 100%; }
+        .product-view .view-wrapper .review .profile .profile-text {
+          display: flex;
+          flex-direction: column;
+          gap: 0.4rem;
+          font-size: 1.1rem; }
+
+.early-access {
+  background-color: #585989;
+  font-family: 'Raleway', sans-serif; }
+  .early-access .early-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 9rem;
+    width: 85vw;
+    margin-bottom: 5rem; }
+    .early-access .early-wrapper .early-text .early-title {
+      font-size: 3.3rem;
+      color: white; }
+    .early-access .early-wrapper .early-text .early-desc {
+      color: white;
+      margin-top: 3.8rem;
+      width: 50rem;
+      font-size: 1.6rem; }
+    .early-access .early-wrapper .early-input label {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem; }
+      .early-access .early-wrapper .early-input label input {
+        width: 53rem;
+        height: 4.3rem;
+        border-radius: 0.5rem;
+        border: 1px solid black;
+        box-shadow: 10px 10px 18px -11px rgba(0, 0, 0, 0.75); }
+        .early-access .early-wrapper .early-input label input::placeholder {
+          margin-right: 5rem; }
+      .early-access .early-wrapper .early-input label button {
+        cursor: pointer;
+        width: 25rem;
+        height: 4.4rem;
+        background-color: #3065F8;
+        color: white;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        border: none;
+        box-shadow: 10px 10px 18px -11px rgba(0, 0, 0, 0.75);
+        transition: 0.4s ease all; }
+        .early-access .early-wrapper .early-input label button:hover {
+          background-color: rgba(255, 255, 255, 0.2); }
+
+.footer {
+  background-color: #070439; }
+  .footer .footer-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80vw;
+    margin-bottom: 9rem; }
+    .footer .footer-wrapper .footer-contact {
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem; }
+      .footer .footer-wrapper .footer-contact .phone {
+        margin-top: 2rem; }
+      .footer .footer-wrapper .footer-contact .phone, .footer .footer-wrapper .footer-contact .email {
+        display: flex;
+        align-items: center;
+        column-gap: 1rem;
+        font-size: 1.6rem; }
+    .footer .footer-wrapper .footer-navbar {
+      display: flex;
+      gap: 10rem; }
+      .footer .footer-wrapper .footer-navbar .navbar-left, .footer .footer-wrapper .footer-navbar .navbar-right {
+        margin-top: 20rem; }
+        .footer .footer-wrapper .footer-navbar .navbar-left ul, .footer .footer-wrapper .footer-navbar .navbar-right ul {
+          display: flex;
+          flex-direction: column;
+          gap: 2rem; }
+          .footer .footer-wrapper .footer-navbar .navbar-left ul li a, .footer .footer-wrapper .footer-navbar .navbar-right ul li a {
+            color: white;
+            font-size: 1.6rem; }
+            .footer .footer-wrapper .footer-navbar .navbar-left ul li a:hover, .footer .footer-wrapper .footer-navbar .navbar-right ul li a:hover {
+              color: #3065F8; }
+    .footer .footer-wrapper .footer-media {
+      margin-top: 10rem; }
+      .footer .footer-wrapper .footer-media ul {
+        display: flex;
+        column-gap: 3rem; }
+        .footer .footer-wrapper .footer-media ul li {
+          border: 1px solid white;
+          border-radius: 50%;
+          padding: 0.8rem;
+          transition: 0.4s ease all;
+          cursor: pointer; }
+          .footer .footer-wrapper .footer-media ul li:hover {
+            border-color: #3065F8; }
+            .footer .footer-wrapper .footer-media ul li:hover i {
+              transition: 0.4s ease all;
+              color: #3065F8; }
+          .footer .footer-wrapper .footer-media ul li a {
+            color: white;
+            font-size: 2rem; }
+
+@media (max-width: 850px) {
+  .header-wrapper {
+    width: 100vw;
+    padding: 2rem; }
+  .product-wrapper {
+    display: flex;
+    flex-direction: column-reverse; }
+  .view-wrapper {
+    flex-direction: column-reverse; }
+  .early-wrapper {
+    flex-direction: column; }
+  .footer-wrapper {
+    display: flex;
+    gap: 6rem; } }
+
+@media (max-width: 450px) {
+  .header-wrapper {
+    align-items: center;
+    column-gap: 1rem; }
+    .header-wrapper .logo img {
+      width: 100px;
+      height: auto; }
+    .header-wrapper .header-link .header-list {
+      display: flex;
+      column-gap: 5rem;
+      font-family: 'Raleway', sans-serif;
+      font-size: 1.3rem; }
+      .header-wrapper .header-link .header-list .header-item a:hover {
+        color: #3065F8; }
+  .product-info .product-wrapper {
+    display: flex;
+    display: flex;
+    flex-direction: column-reverse; }
+    .product-info .product-wrapper .product-text {
+      text-align: center; }
+      .product-info .product-wrapper .product-text .product-title {
+        font-size: 2rem;
+        width: 30rem;
+        margin-left: 7rem; }
+      .product-info .product-wrapper .product-text .product-desc {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.9rem;
+        width: 40rem;
+        margin-top: 3rem; }
+      .product-info .product-wrapper .product-text .product-input {
+        margin-top: 3rem; }
+        .product-info .product-wrapper .product-text .product-input label input {
+          width: 39rem;
+          height: 4.3rem; }
+          .product-info .product-wrapper .product-text .product-input label input::placeholder {
+            opacity: 0.5;
+            font-size: 1.3rem; }
+        .product-info .product-wrapper .product-text .product-input label button {
+          margin-top: 2rem;
+          width: 40rem;
+          height: 4.3rem; }
+    .product-info .product-wrapper .product-image img {
+      width: 40rem;
+      height: auto;
+      margin-top: 8rem; }
+  .product-view .view-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10rem;
+    column-gap: 3rem; }
+    .product-view .view-wrapper .view-title h3 {
+      font-size: 2rem;
+      margin-left: 9rem;
+      margin-top: 3rem; }
+    .product-view .view-wrapper .view-desc {
+      font-family: 'Open Sans', sans-serif; }
+      .product-view .view-wrapper .view-desc p {
+        font-size: 1.6rem;
+        width: 55rem; }
+      .product-view .view-wrapper .view-desc .desc-1 {
+        margin-top: 4rem; }
+      .product-view .view-wrapper .view-desc .desc-2 {
+        margin-top: 3rem;
+        margin-bottom: 3rem; }
+      .product-view .view-wrapper .view-desc .desc-link {
+        display: flex;
+        align-items: center;
+        font-size: 1.6rem;
+        color: #3c9f8f;
+        border-bottom: 1px solid #3c9f8f;
+        line-height: 2px;
+        transition: 0.5s ease all;
+        width: 16.16rem;
+        line-height: 2; }
+        .product-view .view-wrapper .view-desc .desc-link:hover {
+          color: #97EBE1;
+          border-color: #97EBE1; }
+    .product-view .view-wrapper .view-image img {
+      width: 40rem;
+      height: auto;
+      margin-top: 8rem; }
+    .product-view .view-wrapper .review {
+      background-color: white;
+      margin-top: 3rem;
+      box-shadow: 0 0 15px 0 #bfbfbf;
+      width: 45rem;
+      height: 27.2rem;
+      padding: 4rem;
+      border-radius: 0.75rem; }
+      .product-view .view-wrapper .review .review-desc img {
+        width: 2rem;
+        height: auto; }
+      .product-view .view-wrapper .review .review-desc p {
+        width: 37rem;
+        font-size: 1.6rem;
+        margin-top: 1rem; }
+      .product-view .view-wrapper .review .profile {
+        display: flex;
+        column-gap: 0.8rem;
+        align-items: center;
+        margin-top: 2rem; }
+        .product-view .view-wrapper .review .profile .profile-image img {
+          width: 5rem;
+          border-radius: 100%; }
+        .product-view .view-wrapper .review .profile .profile-text {
+          display: flex;
+          flex-direction: column;
+          gap: 0.4rem;
+          font-size: 1.1rem; } }
